@@ -1,0 +1,43 @@
+.tx {
+    position: absolute;
+    background-color: white;
+    color:black;
+    width:400px;
+    /* height:400px; */
+    left:50%;
+    margin-left:-200px;
+    top:200px;
+    text-align: center;
+    padding:20px 20px 10px;
+    font-weight: bold;
+    z-index: 9;
+    border-radius: 20px;
+    background-color: #ff5353;
+    color:white;
+}
+.title {
+    font-size: 2rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.5rem;
+    margin:20px 0px;
+}
+
+.cta_bar {
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+    background: red;
+    padding: 20px;
+    font-size: 2rem;
+    opacity: 0.8;
+    pointer-events: none;
+}

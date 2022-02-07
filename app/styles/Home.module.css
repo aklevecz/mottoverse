@@ -1,0 +1,58 @@
+.ui {
+  position: absolute;
+  z-index: 3;
+  /* top: 50%; */
+  color: #ff5353
+}
+
+.ui.hide {
+  display: none;
+}
+  
+.top {
+  display: flex;
+  justify-content: center;
+}
+.bottom {
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+.address {
+  background-color: white;
+  color: black;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 200px;
+  padding: 10px;
+  text-emphasis: center;
+  font-weight: bold;
+  /* margin: 10px; */
+}
+
+.letters,
+.words,
+.mottos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.show {
+}
+
+.hide > div {
+  display: none;
+}
+
+.letters > div,
+.words > div,
+.mottos > div {
+  background-color: white;
+  margin: 2px;
+  border: 1px solid black;
+  padding: 10px;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.49.0",
+    "@builder.io/react": "^2.0.1",
+    "@googlemaps/js-api-loader": "^1.13.4",
+    "@walletconnect/web3-provider": "^1.7.1",
+    "aws-sdk": "^2.1070.0",
+    "canvas": "^2.9.0",
+    "ethers": "^5.5.4",
+    "firebase": "^9.6.6",
+    "formidable": "^2.0.1",
+    "framer-motion": "^6.3.6",
+    "needle": "^3.0.0",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sharp": "^0.30.0",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/formidable": "^2.0.4",
+    "@types/google.maps": "^3.47.3",
+    "@types/needle": "^2.5.3",
+    "@types/node": "17.0.14",
+    "@types/react": "17.0.39",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10",
+    "typescript": "4.5.5"
+  }
+}
